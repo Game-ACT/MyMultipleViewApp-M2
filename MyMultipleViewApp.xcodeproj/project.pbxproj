@@ -29,6 +29,7 @@
 		34F0F6372C0EE19800084205 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		34F0F6392C0EE1AF00084205 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 		34F0F63B2C0EE1C300084205 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
+		34F0F63D2C0EE21900084205 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 				34F0F6372C0EE19800084205 /* ThirdView.swift */,
 				34F0F6392C0EE1AF00084205 /* FourthView.swift */,
 				34F0F63B2C0EE1C300084205 /* FifthView.swift */,
+				34F0F63D2C0EE21900084205 /* README.md */,
 				34F0F6292C0EE07300084205 /* Assets.xcassets */,
 				34F0F62B2C0EE07300084205 /* Preview Content */,
 			);
