@@ -48,6 +48,7 @@ struct ContentView: View {
                             .padding(.horizontal, 20)
                     }
                     
+                    /*
                     NavigationLink(destination: FourthView()) {
                         Text("Fourth")
                             .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
@@ -69,6 +70,7 @@ struct ContentView: View {
                             .cornerRadius(10)
                             .padding(.horizontal, 20)
                     }
+                    */
                 }
                 .navigationTitle("Something Here")
             }
