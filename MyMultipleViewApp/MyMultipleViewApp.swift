@@ -1,5 +1,5 @@
 //
-//  MyMultipleViewAppApp.swift
+//  MyMultipleViewApp.swift
 //  MyMultipleViewApp
 //
 //  Created by Thapat Auechaikasem on 4/6/67.
