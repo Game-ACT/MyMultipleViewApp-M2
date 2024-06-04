@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        Text("This is the f view.")
+        Text("This is the second view.")
     }
 }
 
