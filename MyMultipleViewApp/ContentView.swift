@@ -16,7 +16,7 @@ struct ContentView: View {
                 
                 VStack {
                     NavigationLink(destination: FirstView()) {
-                        Text("First")
+                        Text("Python")
                             .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
                             .background(.green)
                             .font(.system(size: 27,design: .rounded))
@@ -27,7 +27,7 @@ struct ContentView: View {
                     }
                     
                     NavigationLink(destination: SecondView()) {
-                        Text("Second")
+                        Text("Swift")
                             .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
                             .background(.green)
                             .font(.system(size: 27,design: .rounded))
@@ -38,7 +38,7 @@ struct ContentView: View {
                     }
                     
                     NavigationLink(destination: ThirdView()) {
-                        Text("Third")
+                        Text("VPLs")
                             .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
                             .background(.green)
                             .font(.system(size: 27,design: .rounded))
