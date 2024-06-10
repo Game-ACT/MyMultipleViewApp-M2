@@ -12,7 +12,8 @@ struct ContentView: View {
         ZStack {
             NavigationStack {
                 
-                Spacer()
+                // It's look weird
+                // Spacer()
                 
                 VStack {
                     NavigationLink(destination: FirstView()) {
