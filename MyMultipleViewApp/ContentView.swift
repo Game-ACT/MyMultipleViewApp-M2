@@ -38,7 +38,7 @@ struct ContentView: View {
                     }
                     
                     NavigationLink(destination: ThirdView()) {
-                        Text("VPLs")
+                        Text("C")
                             .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
                             .background(.green)
                             .font(.system(size: 27,design: .rounded))
@@ -72,7 +72,7 @@ struct ContentView: View {
                     }
                     */
                 }
-                .navigationTitle("Something Here")
+                .navigationTitle("Coding Languages")
             }
         }
     }
