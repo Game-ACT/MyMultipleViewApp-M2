@@ -7,21 +7,22 @@
 
 import SwiftUI
 
-var name2 = "Swift"
-var img2 = "swift"
-var imgwidth2: CGFloat = 200
-var imgheight2: CGFloat = 200
-var about2 = "Swift is a programming language developed by Apple. It is designed to be safe, fast, and expressive. It is commonly used to develop iOS, macOS, watchOS, and tvOS applications."
-
 struct SecondView: View {
+    
+    var name = "Swift"
+    var img = "swift"
+    var imgwidth: CGFloat = 200
+    var imgheight: CGFloat = 200
+    var about = "Swift is a programming language developed by Apple. It is designed to be safe, fast, and expressive. It is commonly used to develop iOS, macOS, watchOS, and tvOS applications."
+    
     var body: some View {
-        Text(name2)
+        Text(name)
             .font(.system(size: 40, design: .rounded))
-        Image(img2)
+        Image(img)
             .resizable()
-            .frame(width: imgwidth2, height: imgheight2)
+            .frame(width: imgwidth, height: imgheight)
             .padding(.bottom, 10)
-        Text(about2)
+        Text(about)
             .multilineTextAlignment(.center)
             .font(.system(size: 20))
             .padding(.horizontal, 30)

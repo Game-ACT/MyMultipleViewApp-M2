@@ -7,21 +7,22 @@
 
 import SwiftUI
 
-var name1 = "Python™"
-var img1 = "py"
-var imgwidth1: CGFloat = 200
-var imgheight1: CGFloat = 200
-var about1 = "Python™ is a programming language known for its simplicity and readability. It is commonly used for web development, scientific computing, data analysis, artificial intelligence, and more."
-
 struct FirstView: View {
+    
+    var name = "Python™"
+    var img = "py"
+    var imgwidth: CGFloat = 200
+    var imgheight: CGFloat = 200
+    var about = "Python™ is a programming language known for its simplicity and readability. It is commonly used for web development, scientific computing, data analysis, artificial intelligence, and more."
+    
     var body: some View {
-        Text(name1)
+        Text(name)
             .font(.system(size: 40, design: .rounded))
-        Image(img1)
+        Image(img)
             .resizable()
-            .frame(width: imgwidth1, height: imgheight1)
+            .frame(width: imgwidth, height: imgheight)
             .padding(.bottom, 10)
-        Text(about1)
+        Text(about)
             .multilineTextAlignment(.center)
             .font(.system(size: 20))
             .padding(.horizontal, 30)

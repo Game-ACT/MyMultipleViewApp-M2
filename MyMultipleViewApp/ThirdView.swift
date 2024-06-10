@@ -7,21 +7,23 @@
 
 import SwiftUI
 
-var name3 = "C"
-var img3 = "c"
-var imgwidth3: CGFloat = 200
-var imgheight3: CGFloat = 200
-var about3 = "C is a general-purpose programming language commonly used for system programming and low-level development"
 
 struct ThirdView: View {
+    
+    var name = "C"
+    var img = "c"
+    var imgwidth: CGFloat = 200
+    var imgheight: CGFloat = 200
+    var about = "C is a general-purpose programming language commonly used for system programming and low-level development"
+    
     var body: some View {
-        Text(name3)
+        Text(name)
             .font(.system(size: 40, design: .rounded))
-        Image(img3)
+        Image(img)
             .resizable()
-            .frame(width: imgwidth1, height: imgheight1)
+            .frame(width: imgwidth, height: imgheight)
             .padding(.bottom, 10)
-        Text(about3)
+        Text(about)
             .multilineTextAlignment(.center)
             .font(.system(size: 20))
             .padding(.horizontal, 30)
