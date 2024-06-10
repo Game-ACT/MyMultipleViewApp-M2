@@ -49,9 +49,8 @@ struct ContentView: View {
                             .padding(.horizontal, 20)
                     }
                     
-                    /*
                     NavigationLink(destination: FourthView()) {
-                        Text("Fourth")
+                        Text("C++")
                             .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
                             .background(.green)
                             .font(.system(size: 27,design: .rounded))
@@ -62,7 +61,7 @@ struct ContentView: View {
                     }
                     
                     NavigationLink(destination: FifthView()) {
-                        Text("Fifth")
+                        Text("C#")
                             .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
                             .background(.green)
                             .font(.system(size: 27,design: .rounded))
@@ -71,7 +70,7 @@ struct ContentView: View {
                             .cornerRadius(10)
                             .padding(.horizontal, 20)
                     }
-                    */
+                    
                 }
                 .navigationTitle("Coding Languages")
             }
