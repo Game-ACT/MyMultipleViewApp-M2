@@ -13,7 +13,7 @@ struct FifthView: View {
     var img = "csharp"
     var imgwidth: CGFloat = 200
     var imgheight: CGFloat = 200
-    var about = "C is a general-purpose programming language commonly used for system programming and low-level development"
+    var about = "C# (C Sharp) is a programming language developed by Microsoft. It is widely used for building applications on the .NET platform"
     
     var body: some View {
         Text(name)

@@ -13,7 +13,7 @@ struct FourthView: View {
     var img = "cpp"
     var imgwidth: CGFloat = 200
     var imgheight: CGFloat = 200
-    var about = "C is a general-purpose programming language commonly used for system programming and low-level development"
+    var about = "C++ is a popular programming language used for system-level programming and software development. It is a general-purpose language known for its efficiency, performance, and wide range of applications."
     
     var body: some View {
         Text(name)
