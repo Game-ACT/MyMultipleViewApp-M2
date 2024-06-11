@@ -71,6 +71,18 @@ struct ContentView: View {
                             .padding(.horizontal, 20)
                     }
                     
+                    NavigationLink(destination: AboutDevView()) {
+                        Text("About Developer")
+                            .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
+                            .background(.green)
+                            .font(.system(size: 27,design: .rounded))
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                            .padding(.horizontal, 20)
+                            .padding(.top, 30)
+                    }
+                    
                 }
                 .navigationTitle("Coding Languages")
             }

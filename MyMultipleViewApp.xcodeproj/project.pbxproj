@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342608662C181D4E00836D3E /* AboutDevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342608652C181D4E00836D3E /* AboutDevView.swift */; };
 		34F0F6262C0EE07200084205 /* MyMultipleViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0F6252C0EE07200084205 /* MyMultipleViewApp.swift */; };
 		34F0F6282C0EE07200084205 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0F6272C0EE07200084205 /* ContentView.swift */; };
 		34F0F62A2C0EE07300084205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F0F6292C0EE07300084205 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342608652C181D4E00836D3E /* AboutDevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDevView.swift; sourceTree = "<group>"; };
 		34F0F6222C0EE07200084205 /* MyMultipleViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMultipleViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F0F6252C0EE07200084205 /* MyMultipleViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMultipleViewApp.swift; sourceTree = "<group>"; };
 		34F0F6272C0EE07200084205 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				34F0F63D2C0EE21900084205 /* README.md */,
 				34F0F6292C0EE07300084205 /* Assets.xcassets */,
 				34F0F62B2C0EE07300084205 /* Preview Content */,
+				342608652C181D4E00836D3E /* AboutDevView.swift */,
 			);
 			path = MyMultipleViewApp;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				34F0F6282C0EE07200084205 /* ContentView.swift in Sources */,
 				34F0F6382C0EE19800084205 /* ThirdView.swift in Sources */,
+				342608662C181D4E00836D3E /* AboutDevView.swift in Sources */,
 				34F0F6342C0EE17F00084205 /* FirstView.swift in Sources */,
 				34F0F6362C0EE18D00084205 /* SecondView.swift in Sources */,
 				34F0F63A2C0EE1AF00084205 /* FourthView.swift in Sources */,
