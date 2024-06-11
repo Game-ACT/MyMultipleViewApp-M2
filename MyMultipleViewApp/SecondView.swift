@@ -16,16 +16,17 @@ struct SecondView: View {
     var about = "Swift is a programming language developed by Apple. It is designed to be safe, fast, and expressive. It is commonly used to develop iOS, macOS, watchOS, and tvOS applications."
     
     var body: some View {
-        Text(name)
-            .font(.system(size: 40, design: .rounded))
-        Image(img)
-            .resizable()
-            .frame(width: imgwidth, height: imgheight)
-            .padding(.bottom, 10)
-        Text(about)
-            .multilineTextAlignment(.center)
-            .font(.system(size: 20))
-            .padding(.horizontal, 30)
+        VStack {
+            Image(img)
+                .resizable()
+                .frame(width: imgwidth, height: imgheight)
+                .padding(.bottom, 10)
+            Text(about)
+                .multilineTextAlignment(.center)
+                .font(.system(size: 20))
+                .padding(.horizontal, 30)
+        }
+        .navigationTitle(name)
     }
 }
 
